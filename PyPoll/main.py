@@ -34,11 +34,9 @@ with open(csvpath, newline='') as csvfile:
     if candidate == "Charles Casper Stockham":
         Charles_Casper_Stockham.append(candidates)
         Charles_Casper_Stockham_votes = len(Charles_Casper_Stockham)
-
     elif candidate == "Diana DeGette":
         Diana_DeGette.append(candidates)
         Diana_DeGette_votes = len(Diana_DeGette)
-
     else:
         Raymon_Anthony_Doane.append(candidates)
         Raymon_Anthony_Doane_votes = len(Raymon_Anthony_Doane)
